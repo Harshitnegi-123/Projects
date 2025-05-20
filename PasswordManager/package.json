@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "cd Backend && node --watch server.js",
+  "client": "cd Frontend && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +14,8 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }

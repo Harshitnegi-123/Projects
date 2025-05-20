@@ -1,7 +1,0 @@
-@import "tailwindcss";
-
-@layer components{
-    .mycontainer{
-        @apply container px-30 py-6 max-w-6xl mx-auto overflow-x-hidden ;
-    }
-}

@@ -10,8 +10,12 @@ function App() {
   return (
     <>
   <Navbar/>
+  <div className='min-h-screen flex flex-col bg-green-50 overflow-x-hidden'>
+    <main className='flex-grow'>
   <Manager/>
+    </main>
   <Footer/>
+  </div>
     </>
   )
 }

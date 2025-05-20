@@ -1,0 +1,18 @@
+# Global ignores
+node_modules/
+.env
+*.log
+.DS_Store
+.vscode/
+build/
+dist/
+.tailwindcache/
+
+# Client folder
+Frontend/node_modules/
+Frontend/.env
+Frontend/build/
+
+# Server folder
+Backend/node_modules/
+Backend/.env
